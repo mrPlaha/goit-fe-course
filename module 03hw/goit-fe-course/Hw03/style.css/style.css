@@ -1,0 +1,132 @@
+html{
+  font-family:'Playfair Display', serif;
+  font-weight:400;
+  color: #626262;
+  max-width: 901px;
+  letter-spacing: 0;   
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+header{
+  padding-top: 78px;
+  margin-bottom: 100px;
+  text-align: center
+}
+.main{
+  width: 900px;
+}
+
+.container{
+  margin-bottom: 105px;
+  padding: 0;
+  text-align: center;
+  font-size: 0;
+}
+.container li{
+  display: inline-block;
+  padding: 0;
+  width: 180px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  
+}
+
+.container a{
+  text-decoration: none;
+  color: #626262;
+  text-transform: uppercase;
+}
+.container a:hover{
+  color: #03a9f4;
+}
+main{
+  width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+
+main section:not(:last-of-type){
+  margin-bottom: 135px;
+}
+main section:last-of-type{
+  margin-bottom: 57px;
+}
+.link{
+  text-decoration: none;
+  color: inherit;
+  font-size: 14;
+  opacity: 0.7;
+  margin-left: 120px;
+}
+section{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;  
+}
+
+img{
+  display: block;
+  margin: 0;
+}
+
+.block{
+  width: 420px;
+  padding: 0;
+  margin: 0 30px 30px 0;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0;
+}
+.block:nth-child(2n)
+{
+  margin-right: 0;
+}
+
+section.block:first-child{
+margin-right: 30px;
+}
+p{
+  padding: 0;
+  line-height: 24px;
+  text-align: left;
+  margin: 0;
+  font-size: 16px;
+}
+span{
+  display: block;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  color: #b4ad9e;
+  text-transform: uppercase;
+  margin: 0 0 23px;
+  padding:0;
+  
+}
+h2{
+  font-size: 30px;
+  margin: 0;
+  padding-bottom: 45px;
+  text-align: left;
+ 
+}
+
+button{
+  display: block;
+  font-family:inherit;
+  font-weight:inherit;
+  color:inherit;
+  font-size: 20px;
+  letter-spacing: 0;
+  margin: 0 auto;
+  border: 1px #626262 solid; 
+  padding: 17px 35px;
+  background: inherit; 
+}
