@@ -1,0 +1,384 @@
+body{
+    margin:0;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+      
+}
+.site{
+    padding: 36px 0 12px;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+} 
+.site-logo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    color:#555252;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.site-logo::first-letter{
+    color:#1abc9c;
+    font-weight: bold;
+}
+
+.site-navigation{
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color:#0f0101;
+    list-style:none;
+    letter-spacing: -0.28px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 4px 0 8px;
+    width: 540px;
+    
+  
+}
+.site-navigation-item{
+    float: left;
+    margin-right: 4px;
+    width: 86px;
+  
+   
+}
+.site-navigation-item:last-of-type{
+    margin-right: 0;
+}
+.site-navigation-item a{
+    color:#0f0101;
+    text-decoration: none;
+    padding: 0;
+    display: block;
+    text-align: center;
+    
+    
+ }
+.site-navigation-item a:hover{
+     color: #1abc9c;
+    }
+
+/* HEADER */
+header{
+    padding-top: 12px;
+    margin: 0;
+   
+}
+
+/* BANNER */
+.banner{
+    background-image :linear-gradient(rgba(50, 50, 50, 0.5), rgba(50, 50, 50, 0.5)), url(../jpg/slide.png);
+    min-height: 600px;
+    background-size: cover;
+    background-position:center;
+}
+
+.slider{
+    position: relative;
+    height: 600px;
+   
+    
+
+}
+.slider button{
+    display: block;
+    height: 105px;
+    width: 105px;
+    cursor: pointer;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:#1abc9c;
+    opacity: 0.6;
+}
+.button-preview{
+    background-image: url(../jpg/slider\ arrow\ prew.png);
+    border: none;
+    position: absolute;
+    left: 0;
+    top: 224px;
+    
+    
+}
+.button-next{
+    background-image: url(../jpg/slider\ arrow\ next.png);
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 224px;
+}
+.slider button:hover{
+    opacity: 1;
+}
+.slider-title{
+    display:block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    letter-spacing: -1.2px;
+    position: absolute;
+    top: 212px;
+    left: 186px;
+    padding: 0;
+    text-transform: uppercase;
+    color: white;
+    width: 760px;
+    margin: 0;
+  
+  
+   
+}
+.slider-txt {
+    display:block;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight:300;
+    letter-spacing: -0.48px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 304px;
+    left:186px;
+   
+   
+    
+}    
+
+/* MAIN     */
+
+main{
+    box-sizing: content-box;
+    padding: 90px 6px 98px 6px;
+    background-color: #e9f0fd;
+}
+
+/* PRODUCT CARD */
+
+.product-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color:#515151;
+    letter-spacing: -0.96px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin: 0 0 108px;
+}
+.product-title::after{
+    content: '';
+    display: block;
+    background-color: #1abc9c;
+    width:164px;
+    position: absolute;
+    height: 7px; 
+    bottom: -28px;
+    left: 473px;
+    margin:0;
+   
+    }
+.product-card {
+    float: left;
+    width: 255px;
+    position: relative;
+    font-size: 0;
+}
+.product-card-img {
+    display: block;
+    width: 255px;
+    height: 282px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-color: #fff;
+}
+         
+.png1{
+    background-image: url(../jpg/Item-01.png);
+   
+}
+.png2{
+    background-image: url(../jpg/img\ 2.png);
+}
+    
+.png3{
+    background-image: url(../jpg/img\ 3.png);
+}
+.png4{
+    background-image: url(../jpg/img\ 4.png);
+    
+}
+ 
+.product-card:not(:last-child){
+    margin-right: 30px;
+}
+        
+ .product-card-name, .product-card-cost{
+    display:inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: -0.36px;
+    text-transform: uppercase;
+}
+ .product-card-name{
+    background-color: rgb(50, 50, 50);
+    width: 173px;
+    color:white;
+    padding: 4px 14px 4px 14px;
+}
+.product-card-cost{
+    background: rgb(50, 50, 50);
+    width: 46px;
+    text-align: center;
+    color: white;
+    padding: 4px;
+    opacity: 0.5;
+}
+.product-card-cost::before{
+    content: '$';
+}
+.product-card:hover .product-card-name{
+    background: rgb(26, 188, 156);
+}
+.product-card:hover .product-card-cost{
+    background:rgb(26, 188, 156);
+}
+.product-card-overlay{
+    display:none;
+    width: 235px;
+    height: 262px;
+    margin: 0;
+    background: rgba(0, 0, 0);
+    position: absolute;
+    border: 10px solid rgba(255, 255, 255);
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+
+}
+.product-card:hover .product-card-overlay{
+    display: block;
+}
+.overlay-button{
+    display: none;
+    width: 166px;
+    height: 108px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+   
+}
+.product-card:hover .overlay-button{
+    display: block;
+   
+}
+
+    
+.overlay-button button{
+    display: block;
+    border: 1px solid #fff;
+    cursor: pointer;
+    background-repeat: no-repeat;
+   
+    
+
+}
+
+.button1{
+    float: left;
+    width: 50px;   
+    height: 50px;
+    background-image: url(../jpg/hover/button1.png);
+    background-color:transparent;
+    background-position: center;
+    margin: 0 8px 8px 0;
+
+  
+}
+.button2{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-image: url(../jpg/hover/button2.png);
+    background-color:transparent;
+    background-position: center;
+    margin: 0 8px 8px 0;
+    
+    
+}
+
+.button3{
+    width: 50px;
+    height: 50px;
+    background-image: url(../jpg/hover/button3.png);
+    background-color:transparent;
+    background-position: center;
+    margin-bottom: 8px;
+    margin: 0;
+ 
+}
+.button4{
+    width:166px;
+    background-color: rgb(50, 50, 50);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#fff;
+    text-transform: uppercase;
+    padding: 10px 0;
+
+   
+}
+.button4 img{
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+
+.overlay-button button:hover{
+    background-color:#1abc9c;
+    border: none;
+
+}
+
+/* FOOTER */
+footer{
+    padding: 10px 6px;  
+    margin: 0;
+    background: #323232;
+}
+
+.info{
+    padding: 24px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+
+ }
+ 
+
+.info span {
+   color:#46bfa9;
+}
