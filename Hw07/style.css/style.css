@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+/* HEADER */
+header{
+    padding: 50px 6px 80px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo{
+    font-family: 'WisdomScriptAJ', sans-serif;
+    font-size: 26px;
+    letter-spacing: 0.05em;
+    color: #fed136;
+    text-decoration: none;
+    padding-left: 6px;
+}
+.block-nav{
+    display: flex;
+    width: 485px;
+    justify-content: space-between;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 14px;
+  
+}
+.block-nav-item{
+    width: 90px;
+    text-align: center;
+    cursor: pointer;
+}
+.block-nav-item a{
+    text-decoration: none;
+    color: #222222;
+}
+.block-nav-item a:hover{
+    color: #fed136;
+}
+/* MAIN */
+main{
+    padding: 40px 6px 124px
+}
+h2{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 40px;
+    letter-spacing:-0.025em;
+    color: #222222;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 10px;
+}
+h3{
+    font-family: 'DroidSerif-Italic',serif;
+    font-size: 16px;
+    color: #777777;
+    text-align: center;
+    letter-spacing: 0;
+    margin: 0 0 74px;
+   
+
+}
+.services-block{
+    display: flex;
+    justify-content: space-between;
+}
+.services-block-item{
+    width: 274px;
+    text-align: center;
+}
+h4 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.025em;
+    color: #222222;
+    text-transform: capitalize;
+    margin: 0 0 12px;
+}
+.services-block-item::before{
+    content: '';
+    display: block;
+    width: 69px;
+    height: 69px;
+    border: 3px solid #fed136;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto 20px;
+
+} 
+.icon1::before{
+    background-image: url(../img/Icon-Basket.png);
+   
+
+}
+.icon2::before{
+    background-image: url(../img/Icon-Laptop.png);
+  
+
+}
+.icon3::before{
+    background-image: url(../img/Icon-Locked.png);
+
+
+}
+p{
+    font-family: 'WisdomScriptAJ', sans-serif;
+    font-size: 14px;
+    color: #777777;
+    letter-spacing: -0.025em;
+    margin: 0;
+    
+       
+}
+/* FOOTER */
+footer{
+    background:#000;
+    background-image: url(../img/Map-Image.png);
+    background-repeat: no-repeat;
+    background-position: right 120px;
+    padding: 98px 0 114px;
+   
+}  
+.contact-title{
+    color:#ffffff;
+    margin-bottom: 14px;
+}
+.contact-subtitle{
+    margin-bottom: 74px;
+}
+form{
+    display: block;
+    position: relative;
+    width: 940px;
+    
+} 
+input{
+    width: 433px;
+    height: 48px;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    margin: 0 28px 28px 0;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 14px;
+    letter-spacing: -0.025em;
+    text-transform: uppercase;
+    padding-left: 20px;
+    
+}
+input:required:valid{
+    outline-color : #008000;
+}
+input:required:invalid{
+    outline-color: #ff0000;
+}
+
+textarea{
+    display: inline-block;
+    width: 433px;
+    height: 194px;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    position: absolute;
+    top:0;
+    right: 0;
+    resize: none;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 14px;
+    letter-spacing: -0.025em;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-top: 14px
+    
+}
+textarea:required:valid{
+    outline-color : #008000;
+}
+textarea:required:invalid{
+    outline-color: #ff0000;
+}
+
+button{
+    display: block;
+    width: 240px;
+    font-family: 'Montserrat-Bold', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 3px;
+    background-color: #fed136;
+    padding: 22px 2px;
+    margin: 0 auto;
+    border: 1px solid #fed136;
+    cursor: s;
+}
