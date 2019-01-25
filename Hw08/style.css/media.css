@@ -1,0 +1,190 @@
+@media (max-width: 767px) {
+    header{
+        padding: 20px 0 138px;
+    }
+    .nav{
+         margin-bottom: 28px;
+    }
+    .button{
+        margin-bottom: 114px;
+    }
+    .logo{
+        display: inline-block;
+        width: 100%;
+    } 
+    .promo-title{
+        margin: 0 auto 10px;
+    }
+    .promo-subtitle{
+        margin: 0 auto 16px;
+    }
+    h4{
+        margin-bottom: 16px;
+    }
+    .block-partner{
+        margin: 0 0 24px;
+    }
+   
+      
+}
+@media (min-width: 768px) and (max-width: 939px){
+    .container{
+        width: 668px;
+        margin: 0 auto;
+    }
+    header{
+        min-height: 662px;
+        padding-top: 38px;
+    }
+    .nav{
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 138px;
+    }
+    .logo{
+        order: 1;
+    }
+    .button{
+        order: 2;
+        width: 200px;
+    }
+    .promo-title{
+        width: 492px;
+        font-size: 52px;
+        margin: 0 auto 26px;
+    }
+    .promo-subtitle{
+        width: 404px;
+        font-size: 24px;
+        margin: 0 auto 34px;
+    }
+    .promo button{
+        width: 225px;
+        padding: 10px 2px;
+    }
+    main{
+        padding: 68px 0 40px;
+    }
+    h4{
+        width: 404px;
+        margin-bottom: 32px;
+    }
+    .block-partner{
+        height: 494px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-between;
+        margin: 0 0 36px;
+    }
+    .block-partner1, .block-partner2, .block-partner3, .block-partner4{
+        width: 256px;
+        margin: 0;
+    }
+    .partner1, .partner2, .partner3, .partner4{
+        margin: 0 0 18px;
+    }
+    .block-partner1{
+        order:1;
+    }
+    .block-partner2{
+        order:3;
+    }
+    .block-partner3{
+        order:2;
+    }
+    .block-partner4{
+        order:4;
+    }
+    .partner-name{
+        margin:0 0 14px;
+    }    
+    section button{
+        width: 192px;
+        padding: 10px 2px;
+    }
+    .partner1::after, .partner2::after, .partner3::after, .partner4::after {
+        right:62px;
+    }   
+}
+@media (min-width: 940px){
+    .container{
+        width: 940px;
+        margin: 0 auto;
+    }
+    header{
+        padding: 38px 0 140px;
+    }
+    .nav{
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 136px;
+    }
+    .logo{
+        order: 1;
+        padding: 8px 0;
+    }
+    .button{
+        width: 200px;
+        order: 2;
+    }
+    .promo-title{
+        width: 492px;
+        font-size: 52px;
+        margin: 0 auto 26px;
+    }
+    .promo-subtitle{
+        width: 404px;
+        font-size: 24px;
+        margin: 0 auto 36px;
+    }
+    .promo button{
+        width: 227px;
+        padding: 10px 2px;
+    }
+     main{
+        padding: 68px 0 72px;
+    }
+    h4{
+        width: 500px;
+        margin-bottom: 34px;
+    }
+    .block-partner{
+        height: auto;
+        display: flex;
+        justify-content:  space-between;
+        margin: 0 0 34px;
+    }    
+    .block-partner1, .block-partner2, .block-partner3, .block-partner4 {
+        width: 220px;
+        margin: 0;
+    }
+    .block-partner1{
+        order:1;
+    }
+    .block-partner2{
+        order:3;
+    }
+    .block-partner3{
+        order:2;
+    }
+    .block-partner4{
+        order:4;
+    }
+    .partner1, .partner2, .partner3, .partner4{
+        margin: 0 0 18px;
+    }
+    .partner1::after, .partner2::after, .partner3::after, .partner4::after {
+        right:45px;
+    } 
+    .partner-name{
+        margin:0 0 14px;
+    }  
+    section button{
+        width: 192px;
+        padding: 10px 2px;
+    }
+}
