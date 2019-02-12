@@ -1,0 +1,120 @@
+body{
+    font-family:'Playfair Display', serif;
+    font-weight:400;
+    color: #626262;
+    letter-spacing: 0;   
+    margin: 0;
+    padding: 0;
+}
+header{
+    box-sizing: border-box;
+    padding-top: 78px;
+    margin-bottom: 105px;
+}
+
+.menu-nav{
+    width: 900px;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0;
+}
+.menu-nav li{
+    display: inline-block;
+    padding: 0;
+    width: 180px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    
+}
+.menu-nav a{
+    text-decoration: none;
+    color: #626262;
+    text-transform: uppercase;
+}
+.menu-nav a:hover{
+    color: #03a9f4;
+}
+main{
+    box-sizing: border-box;
+    width: 900px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+section{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+main section:not(:last-of-type){
+    margin-bottom: 135px;
+}
+ main section:last-of-type{
+    margin-bottom: 57px;
+ }
+
+section div{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;  
+}
+ 
+img{
+    display: block;
+    height: 280px;
+    width: 420px;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+
+}
+
+.content{
+    width: 420px;
+    padding: 0;
+    margin: 0;
+}
+section .content:first-child{
+margin-right: 60px;
+}
+p{
+    padding: 0;
+    line-height: 24px;
+    text-align: left;
+    margin: 0;
+}
+span{
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin: 0 0 23px;
+    padding:0;
+    
+}
+h2{
+    font-size: 30px;
+    font-weight:400;
+    margin: 0;
+    margin-bottom:30px;
+    padding:0;
+    text-align: left;
+
+   
+}
+
+button{
+    display: block;
+    font-family:inherit;
+    font-weight:inherit;
+    color:inherit;
+    font-size: 20px;
+    letter-spacing: 0;
+    margin: 0 auto;
+    border: 1px #626262 solid; 
+    padding: 17px 35px;
+    background: inherit; 
+}
